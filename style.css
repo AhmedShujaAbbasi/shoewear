@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   
+    
+    overflow-x: hidden;
+  }
+
+div p{
+    text-align: center;
+    background-color: rgba(223, 198, 180, 0.973);
+    padding: 1%;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    background-color: rgb(248, 246, 246);
+    top: 0;
+    cursor: pointer;
+
+}
+
+.nav-list{
+    width: 53%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 19px 17px;
+
+}
+
+.nav-list li a{
+    text-align: justify;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'ubuntu', sans-serif;
+    gap: 60px;
+}
+
+.nav-list li a:hover{
+    color: rgb(56, 200, 236);
+}
+
+.rightNav{
+    width: 40%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+.navbar a:hover {
+    color:rgb(83, 157, 175);
+}
+
+.navbar a.active {
+    background-color: rgb(252, 250, 250);
+    color: white;
+}
+
+.background{
+    background: white;
+    background-size: cover;
+    background-blend-mode: darken;
+    
+}
+
+input[type=text] {
+    width: 152px;
+    box-sizing: border-box;
+    border: 2px solid #0f0f0f;
+    border-radius: 2px;
+    font-size: 10px;
+    background-color: rgb(253, 251, 251);
+    background-image: url(searchicon.png);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 11px 43px 10px 11px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+
+
+.background{
+    background: url('big8.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 48%;
+}
+
+
+
+.btn{
+    background-color: #b9f8ffe8; /* Green */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.btn:hover{
+    box-shadow: 0 13px 17px 0 rgba(168, 168, 168, 0.24),0 17px 50px 0 rgba(128, 127, 127, 0.19);
+}
+
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+.paras h1{
+    text-align: center;
+    padding: 50px;
+    margin: 1px;
+
+}
+
+.paras h4{
+    text-align: center;
+    padding: 0px;
+    margin: -43px;
+}
+ 
+.product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    cursor: pointer;
+}
+
+.products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    cursor: pointer;
+}
+
+.exl{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    cursor: pointer;
+    
+}
+
+.collect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    cursor: pointer;
+}
+
+.best{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+   
+}
+
+
+.contact{
+    background-color: #f6f5f4;
+    height: 733px;
+
+}
+.text-center{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'ubuntu', sans-serif;
+    font-size: 20px;
+
+}
+.form{
+    max-width: 820px;
+    margin: 25px auto;
+}
+
+.form-input{
+    margin: 11px 0;
+    padding: 2px 1px;
+    width: 100%;
+    font-size: 20px;
+    border: 2px solid rgb(8, 8, 8);
+    border-radius: 6px;
+    font-family: 'ubuntu', sans-serif;
+}
+
+.btn-sm{
+    padding: 3px 16px;
+    margin: 6px 1px;
+    border: 1px solid rgb(14, 13, 13);
+    border-radius: 8px;
+    background: none;
+    color: rgb(10, 10, 10);
+    cursor: pointer;
+    font-family: 'ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+input[type=text] {
+width: 195px;
+box-sizing: border-box;
+border: 1px solid #0f0f0f;
+border-radius: 9px;
+font-size: 18px;
+background-color: rgb(253, 251, 251);
+background-position: 10px 10px;
+background-repeat: no-repeat;
+padding: 11px 43px 10px 11px;
+-webkit-transition: width 0.4s ease-in-out;
+transition: width 0.4s ease-in-out;
+}
+
+
+.text-center{
+    background-color: rgb(253, 251, 251);
+    text-align: center;
+    padding: 30px 0;
+    padding-top: 30px;
+    font-family: 'ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;   
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+
+@media only screen and (max-width: 1140px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.3s ease-out;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 72px;
+
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+}
